@@ -1,5 +1,3 @@
-import logging
-
 from aiogram import types
 import app_logger as loger
 
