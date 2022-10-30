@@ -8,6 +8,7 @@ log = loger.get_logger(__name__)
 async def set_default(dp):
     res = await dp.bot.set_my_commands([
         types.BotCommand("start", "Запустить бота"),
+        types.BotCommand("sales", "Отправить результат"),
         types.BotCommand("help", "Помощь"),
     ])
     log.debug('commands set result {}'.format(res))

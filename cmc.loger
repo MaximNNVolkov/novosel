@@ -26,3 +26,10 @@
 2022-10-28 21:19:41,537 - [INFO] - comands.comands - (comands.py).cmd_help(14) - кнопка хэлп
 2022-10-28 21:20:33,472 - [INFO] - __main__ - (main.py).<module>(20) - bot started
 2022-10-28 21:21:08,656 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 00:00:10,920 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 00:00:26,293 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 00:00:29,844 - [INFO] - comands.comands - (comands.py).cmd_help(14) - кнопка хэлп
+2022-10-31 00:00:32,789 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 00:01:29,139 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 00:01:35,900 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 00:01:45,408 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
