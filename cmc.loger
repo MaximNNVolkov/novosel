@@ -1,0 +1,28 @@
+2022-10-28 20:39:24,593 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-10-28 20:42:03,245 - [INFO] - __main__ - (main.py).<module>(21) - bot started
+2022-10-28 20:42:29,848 - [INFO] - __main__ - (main.py).<module>(21) - bot started
+2022-10-28 20:45:26,677 - [INFO] - __main__ - (main.py).<module>(21) - bot started
+2022-10-28 20:47:29,749 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 20:47:48,365 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-28 20:48:22,753 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 20:48:41,531 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-28 20:51:54,562 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 20:52:27,054 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 20:52:27,054 - [INFO] - utils.startup - (startup.py).set_default_commands(9) - Запущена установка команд
+2022-10-28 20:53:03,257 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-28 20:58:38,247 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:03:54,835 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:04:46,229 - [INFO] - defs.messages.messages - (messages.py).other_msg(13) - Группа: 175431079, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-28 21:05:57,771 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-28 21:06:53,942 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:08:14,395 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:08:55,801 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:11:14,238 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:13:20,203 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:14:19,445 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:17:13,092 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:19:08,364 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:19:33,166 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-28 21:19:41,537 - [INFO] - comands.comands - (comands.py).cmd_help(14) - кнопка хэлп
+2022-10-28 21:20:33,472 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-28 21:21:08,656 - [INFO] - __main__ - (main.py).<module>(20) - bot started
