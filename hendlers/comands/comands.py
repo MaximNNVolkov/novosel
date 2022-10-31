@@ -1,5 +1,5 @@
 from main import dp, types
-from comands import cmd_start, cmd_help
+from comands import cmd_start, cmd_help, cmd_sales
 # from aiogram.dispatcher.filters.builtin import ChatTypeFilter
 
 

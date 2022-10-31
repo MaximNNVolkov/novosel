@@ -33,3 +33,13 @@
 2022-10-31 00:01:29,139 - [INFO] - __main__ - (main.py).<module>(20) - bot started
 2022-10-31 00:01:35,900 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
 2022-10-31 00:01:45,408 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 21:13:20,895 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:13:32,928 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
+2022-10-31 21:13:37,399 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
+2022-10-31 21:13:39,504 - [INFO] - comands.comands - (comands.py).cmd_help(14) - кнопка хэлп
+2022-10-31 21:13:41,283 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 21:13:49,217 - [INFO] - comands.comands - (comands.py).cmd_start(9) - кнопка старт
+2022-10-31 21:16:35,888 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:16:40,770 - [INFO] - defs.messages.messages - (messages.py).other_msg(13) - Группа: 175431079, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:16:48,653 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
+2022-10-31 21:30:56,059 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
