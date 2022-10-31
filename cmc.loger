@@ -43,3 +43,68 @@
 2022-10-31 21:16:40,770 - [INFO] - defs.messages.messages - (messages.py).other_msg(13) - Группа: 175431079, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
 2022-10-31 21:16:48,653 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
 2022-10-31 21:30:56,059 - [INFO] - comands.comands - (comands.py).cmd_sales(19) - кнопка sales
+2022-10-31 21:50:19,784 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:50:33,061 - [INFO] - comands.comands - (comands.py).cmd_sales(22) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:51:08,948 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:51:15,882 - [INFO] - comands.comands - (comands.py).cmd_sales(22) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:51:28,033 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:51:33,876 - [INFO] - comands.comands - (comands.py).cmd_sales(22) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:51:33,882 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 175431079, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:57:21,960 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 21:57:25,089 - [INFO] - comands.comands - (comands.py).cmd_sales(25) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 21:57:25,184 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 175431079, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:04:20,645 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:04:26,977 - [INFO] - comands.comands - (comands.py).cmd_sales(25) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:04:27,058 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:05:09,327 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:05:12,543 - [INFO] - comands.comands - (comands.py).cmd_sales(25) - кнопка salesГруппа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:05:12,682 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:05:56,378 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:05:59,767 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:06:01,458 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:06:03,640 - [INFO] - comands.comands - (comands.py).cmd_sales(25) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:06:03,727 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:07:25,512 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:07:51,468 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:08:31,805 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:08:51,563 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:08:55,607 - [INFO] - comands.comands - (comands.py).cmd_sales(25) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x1073de3e0>
+2022-10-31 22:08:55,708 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:11:01,694 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:11:05,514 - [INFO] - comands.comands - (comands.py).cmd_sales(24) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104afe350>
+2022-10-31 22:11:05,598 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:11:08,141 - [INFO] - comands.comands - (comands.py).cmd_sales(24) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104afef80>
+2022-10-31 22:11:08,222 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:11:10,388 - [INFO] - comands.comands - (comands.py).cmd_sales(24) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104aff580>
+2022-10-31 22:11:10,471 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:11:12,368 - [INFO] - comands.comands - (comands.py).cmd_sales(24) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104aff8b0>
+2022-10-31 22:11:12,471 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:11:15,370 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:11:18,925 - [INFO] - comands.comands - (comands.py).cmd_sales(24) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104b7c190>
+2022-10-31 22:11:19,037 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:24:52,533 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:24:56,397 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:24:58,597 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:25:00,242 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:25:01,663 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:25:02,952 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:25:04,403 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:25:06,257 - [INFO] - comands.comands - (comands.py).cmd_start(13) - кнопка старт
+2022-10-31 22:26:44,870 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:26:48,045 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:26:50,945 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:26:52,051 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:10,534 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:27:14,426 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:17,613 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:19,139 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:21,571 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:23,060 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:24,805 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:27:27,386 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:30:18,896 - [INFO] - __main__ - (main.py).<module>(20) - bot started
+2022-10-31 22:30:23,266 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:30:25,289 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:30:27,841 - [INFO] - comands.comands - (comands.py).cmd_start(14) - кнопка старт. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-10-31 22:30:31,199 - [INFO] - comands.comands - (comands.py).cmd_sales(30) - кнопка sales. Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x1064ad630>
+2022-10-31 22:30:31,275 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(14) - Группа: 0, Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079

@@ -1,6 +1,8 @@
 import app_logger as logger
 from aiogram.dispatcher.filters.state import State, StatesGroup
-log = logger.getLogger(__name__)
+
+
+log = logger.get_logger(__name__)
 
 
 class StateUser(StatesGroup):

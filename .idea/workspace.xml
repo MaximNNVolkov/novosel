@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c32238c3-64db-4dc8-96a5-849d449bce7c" name="Changes" comment="0.2" />
+    <list default="true" id="c32238c3-64db-4dc8-96a5-849d449bce7c" name="Changes" comment="0.2">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hendlers/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hendlers/users/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmc.loger" beforeDir="false" afterPath="$PROJECT_DIR$/cmc.loger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comands/comands.py" beforeDir="false" afterPath="$PROJECT_DIR$/comands/comands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defs/users/user_sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/users/user_sales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsm/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsm/users.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +45,9 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2AwVCeavMTTVIae63TiinrpSyP3" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -140,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667163856423</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="0.2">
+      <created>1667164620740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667164620740</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0.2">
+      <created>1667241599532</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667241599532</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnknownFeatures">
