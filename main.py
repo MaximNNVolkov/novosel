@@ -16,7 +16,6 @@ logger = log.get_logger(__name__)
 
 
 if __name__ == "__main__":
-    from hendlers import dp
     logger.info('bot started')
     executor.start_polling(dispatcher=dp,
                            skip_updates=True,

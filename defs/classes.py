@@ -1,5 +1,4 @@
 from database.sqllite import add_user, user_check
-from main import types
 
 
 class User:

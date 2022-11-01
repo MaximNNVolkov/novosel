@@ -1,9 +1,10 @@
 import app_logger as loger
-from main import types, Bot
 from aiogram.utils import markdown as fmt
 from defs.classes import User
 from fsm import StateUser
 from aiogram.dispatcher import FSMContext
+from aiogram import Bot
+from aiogram.types import Message
 
 
 log = loger.get_logger(__name__)
@@ -19,7 +20,8 @@ async def sales_start(bot: Bot, user, state: FSMContext):
             sep=''))
 
 
-async def sales_start(bot: Bot, user, state: FSMContext):
-    u = User(user)
+async def enter_id(msg: Message, state: FSMContext):
+    u = User(msg.from_user)
     log.info(u.info_user())
     await state.set_state(StateUser.waiting_id)
+    await msg.answer(text='OK')

@@ -1,5 +1,5 @@
 import app_logger as loger
-from main import dp, types
+from aiogram import types
 from aiogram.utils import markdown as fmt
 from defs.classes import User
 
