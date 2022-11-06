@@ -6,9 +6,9 @@ log = logger.get_logger(__name__)
 
 
 class StateUser(StatesGroup):
-    waiting_id = State()
-    check_id = State()
-    waiting_bch = State()
-    waiting_sup = State()
-    waiting_sprime = State()
-    waiting_szdor = State()
+    enter_id = State()
+    enter_bch = State()
+    enter_sup = State()
+    enter_sprime = State()
+    enter_szdor = State()
+    check_sales = State()

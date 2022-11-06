@@ -8,7 +8,7 @@ log = loger.get_logger(__name__)
 
 
 async def other_msg(message: types.Message):
-    u = User(message.from_user, message.chat.id)
+    u = User(message.from_user)
     log.info(u.info_user())
     await message.reply(text=fmt.text(
             fmt.text(u.get_url(), ', ', sep=''),

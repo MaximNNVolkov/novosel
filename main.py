@@ -18,5 +18,5 @@ logger = log.get_logger(__name__)
 if __name__ == "__main__":
     logger.info('bot started')
     executor.start_polling(dispatcher=dp,
-                           skip_updates=True,
+                           skip_updates=False,
                            on_startup=set_default)
