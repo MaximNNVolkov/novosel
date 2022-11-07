@@ -9,6 +9,5 @@ class StateUser(StatesGroup):
     enter_id = State()
     enter_bch = State()
     enter_sup = State()
-    enter_sprime = State()
     enter_szdor = State()
     check_sales = State()

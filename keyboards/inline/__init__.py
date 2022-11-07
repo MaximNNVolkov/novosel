@@ -1,1 +1,1 @@
-from .user import UsersHelp
+from .user import UsersHelp, UsersCheckSales

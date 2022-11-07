@@ -1,7 +1,14 @@
+import configparser
+from aiogram.dispatcher.filters.state import State, StatesGroup
+
+
+config = configparser.ConfigParser()
+config.read("config.ini")
+
 
 class UserSales:
     """хранение атрибутов продаж"""
-    available_properities = ['id', 'bch', 'sup', 'sprime']
+    available_properities = config['atrs']['properties']
 
     def pr(self):
         for a in self.__dict__:
@@ -18,12 +25,20 @@ class UserSales:
         return True
 
 
+class StateUser(StatesGroup):
+
+    def __init__(self, states):
+        for i in states:
+            print(i)
+            i = State()
+
+
 u = UserSales()
 u.set('id', 345678)
 u.set('bch', 5)
 u.set('sup', 6)
-u.set('sprime', 0)
+u.set('szdor', 0)
 u.pr()
-print(u.__dict__.keys()[0])
-print(u.available_properities)
-print(u.__dict__.keys()==u.available_properities)
+u = UserSales()
+u.set('id', 22222)
+u.pr()
