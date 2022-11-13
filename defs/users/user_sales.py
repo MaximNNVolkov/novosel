@@ -1,6 +1,6 @@
 import app_logger as loger
 from aiogram.utils import markdown as fmt
-from defs.classes import User
+from defs.classes import User, UserSales
 from fsm import StateUser
 from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, CallbackQuery
@@ -17,8 +17,9 @@ def txt_false():
 
 def txt_total(u: User, d: dict):
     sales = ''
-    for k in d.keys():
-        sales = ' '.join([sales, k, d[k], '\n'])
+    d_total = UserSales()
+    for k in d_total.my_d.keys():
+        sales = ' '.join([sales, d_total.my_d[k], d[k], '\n'])
     text = fmt.text(
         fmt.text(u.get_url(), ', ', sep=''),
         fmt.text('Вот что получилось:'),
@@ -33,7 +34,7 @@ async def msg_process(msg: Message, state: FSMContext, key: str):
     if res:
         d[key] = msg.text
         await state.set_data(data=d)
-        await msg.answer(text='Отлично. {}'.format(await state.get_data()))
+        await msg.answer(text='Отлично.')
     else:
         await msg.answer(text=txt_false())
     return res
@@ -86,10 +87,13 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
     u = User(cb.from_user)
     log.info(' '.join([await state.get_state(), cb.data, u.info_user()]))
     if cb.data == 'CheckOk':
-        await state.reset_state()
         await cb.message.answer(text='Отправлено')
+        us = UserSales()
+        res = us.save_result(u.id, await state.get_data())
+        await state.reset_state()
+        await cb.message.answer(res)
     elif cb.data == 'CheckChange':
-        state.set_state(StateUser.change_sales)
+        await state.set_state(StateUser.change_sales)
         kb = inline.UserProducts()
         await cb.message.answer(text='Что исправить?',
                                 reply_markup=kb.create_kb())
@@ -98,18 +102,23 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
 async def change_values(cb: CallbackQuery, state: FSMContext):
     u = User(cb.from_user)
     log.info(' '.join([await state.get_state(), cb.data, u.info_user()]))
-    d = inline.UserProducts()
+    d = UserSales()
     await cb.message.answer(text=fmt.text(
         fmt.text('Введите правильное значение '),
         fmt.text(d.my_d[cb.data.split(':')[-1]]),
-        fmt.text('.')
+        fmt.text('.'), sep=''
     ))
+    d = await state.get_data()
+    d['change'] = cb.data.split(':')[-1]
+    await state.set_data(data=d)
+    await state.set_state(StateUser.changed_sales)
 
 
 async def changed_value(msg: Message, state: FSMContext):
     u = User(msg.from_user)
     log.info(' '.join([await state.get_state(), msg.text, u.info_user()]))
-    if await msg_process(msg, state, ):
+    d = await state.get_data()
+    if await msg_process(msg, state, d['change']):
         await state.set_state(StateUser.check_sales)
         await msg.answer(text=txt_total(u, await state.get_data()),
                          reply_markup=inline.UsersCheckSales.create_kb())

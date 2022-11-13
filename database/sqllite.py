@@ -6,6 +6,7 @@ import time
 log = loger.get_logger(__name__)
 db_name = 'cmc.db'
 date_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+date = time.strftime('%Y-%m-%d', time.localtime())
 
 
 def con_up():
@@ -42,3 +43,15 @@ def user_check(user):
         res = 'no_user'
     con_close(conn)
     return res
+
+
+def save_res(u_id: int, res: dict):
+    log.debug(
+        'Запрос на сохранение записи '
+        '{}, {}.'.format(u_id, res))
+    conn, cur = con_up()
+    m = [u_id, date, int(res['id'])//10]
+    for v in res.values():
+        m.append(v)
+    cur.execute('INSERT INTO sales_fact VALUES (?, ?, ?, ?, ?, ?, ?)', m)
+    con_close(conn)

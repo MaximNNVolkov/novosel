@@ -1,4 +1,4 @@
-from database.sqllite import add_user, user_check
+from database import add_user, user_check, save_res
 import configparser
 
 
@@ -44,18 +44,18 @@ class User:
 
 class UserSales:
     """хранение атрибутов продаж"""
-    available_properities = config['atrs']['properties']
 
-    def pr(self):
-        for a in self.__dict__:
-            print(a, self.__getattribute__(a))
+    def __init__(self):
+        p = config.get('atrs', 'properties')
+        d = p.split(',')
+        self.my_d = {}
+        for i in d:
+            k, v = i.split(':')
+            self.my_d.update({k: v})
 
-    def set(self, name: str, value: int):
-        """список атрибутов"""
-        if name in self.available_properities:
-            self.__setattr__(name, value)
-        else:
-            raise ValueError('Недопустимый атрибут')
-
-    def check(self):
+    def save_result(self, u_id: int, res: dict):
+        r = {}
+        for k in self.my_d.keys():
+            r[k] = res[k]
+        save_res(u_id, res=r)
         return True

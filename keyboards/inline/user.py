@@ -1,10 +1,6 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-import configparser
 from aiogram.utils.callback_data import CallbackData
-
-
-config = configparser.ConfigParser()
-config.read("config.ini")
+from defs.classes import UserSales
 
 
 class UsersHelp():
@@ -31,16 +27,11 @@ class UsersCheckSales():
         return kb
 
 
-class UserProducts():
+class UserProducts(UserSales):
 
     def __init__(self):
-        c = config
-        p = c.get('atrs', 'properties')
-        d = p.split(',')
-        self.my_d = {}
-        for i in d:
-            k, v = i.split(':')
-            self.my_d.update({k: v})
+        u = UserSales()
+        self.my_d = u.my_d
         self.cb = CallbackData('Change', 'product')
 
     def create_kb(self):

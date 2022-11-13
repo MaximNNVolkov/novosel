@@ -42,3 +42,8 @@ for i in d:
     my_d.update({k:v})
 print(my_d.values())
 print(my_d.keys())
+b = [4563]
+for v in my_d.values():
+    b.append(v)
+print(b)
+print(86101//10)
