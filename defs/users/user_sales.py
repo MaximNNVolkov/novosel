@@ -42,6 +42,7 @@ async def msg_process(msg: Message, state: FSMContext, key: str):
 
 async def sales_start(msg: Message, state: FSMContext):
     u = User(msg.from_user)
+    u.add_user()
     log.info(u.info_user())
     await state.set_state(StateUser.enter_id)
     await msg.answer(text=fmt.text(

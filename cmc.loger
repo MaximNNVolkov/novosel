@@ -1054,3 +1054,31 @@
 2022-11-13 16:19:39,204 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(71) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
 2022-11-13 16:19:40,020 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(79) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
 2022-11-13 16:19:42,276 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(88) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:19,783 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:21:23,380 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x106a6f220>
+2022-11-13 16:21:23,466 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(45) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:26,711 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(55) - StateUser:enter_id 12345 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:27,795 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(63) - StateUser:enter_bch 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:28,512 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(71) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:29,427 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(79) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:21:31,286 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(88) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:39,488 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:22:44,266 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x10238f250>
+2022-11-13 16:22:44,353 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:47,103 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 12345 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:48,473 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:49,312 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:50,110 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:22:52,255 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:25:04,984 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:29:00,495 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:30:23,119 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:32:21,896 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:32:51,843 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-13 16:32:54,569 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x106d1f3d0>
+2022-11-13 16:32:54,678 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:32:58,357 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 12345 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:32:59,698 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:33:00,686 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:33:01,659 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-13 16:33:03,883 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079

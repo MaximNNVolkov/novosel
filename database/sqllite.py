@@ -47,11 +47,30 @@ def user_check(user):
 
 def save_res(u_id: int, res: dict):
     log.debug(
-        'Запрос на сохранение записи '
-        '{}, {}.'.format(u_id, res))
+        'Запрос на сохранение записи {}, {}.'.format(u_id, res))
     conn, cur = con_up()
     m = [u_id, date, int(res['id'])//10]
     for v in res.values():
         m.append(v)
     cur.execute('INSERT INTO sales_fact VALUES (?, ?, ?, ?, ?, ?, ?)', m)
     con_close(conn)
+
+
+# CREATE TABLE "sales_fact" (
+# 	"user_id"	INTEGER NOT NULL,
+# 	"date"	TEXT NOT NULL,
+# 	"gosb"	INTEGER NOT NULL,
+# 	"rm_id"	INTEGER NOT NULL,
+# 	"bch"	INTEGER NOT NULL,
+# 	"sup"	INTEGER NOT NULL,
+# 	"szdor"	INTEGER NOT NULL,
+# 	PRIMARY KEY("user_id","date","gosb")
+# )
+#
+# CREATE TABLE "users" (
+# 	"user_id"	INTEGER NOT NULL UNIQUE,
+# 	"first_name"	TEXT NOT NULL,
+# 	"last_name"	TEXT NOT NULL,
+# 	"username"	TEXT NOT NULL,
+# 	PRIMARY KEY("user_id")
+# )
