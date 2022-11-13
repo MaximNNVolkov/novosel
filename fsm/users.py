@@ -11,3 +11,5 @@ class StateUser(StatesGroup):
     enter_sup = State()
     enter_szdor = State()
     check_sales = State()
+    change_sales = State()
+    changed_sales = State()

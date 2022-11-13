@@ -89,6 +89,7 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
         await state.reset_state()
         await cb.message.answer(text='Отправлено')
     elif cb.data == 'CheckChange':
+        state.set_state(StateUser.change_sales)
         kb = inline.UserProducts()
         await cb.message.answer(text='Что исправить?',
                                 reply_markup=kb.create_kb())
@@ -97,5 +98,18 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
 async def change_values(cb: CallbackQuery, state: FSMContext):
     u = User(cb.from_user)
     log.info(' '.join([await state.get_state(), cb.data, u.info_user()]))
-    await cb.message.answer(text=cb.data)
-    await cb.message.answer(await state.get_data())
+    d = inline.UserProducts()
+    await cb.message.answer(text=fmt.text(
+        fmt.text('Введите правильное значение '),
+        fmt.text(d.my_d[cb.data.split(':')[-1]]),
+        fmt.text('.')
+    ))
+
+
+async def changed_value(msg: Message, state: FSMContext):
+    u = User(msg.from_user)
+    log.info(' '.join([await state.get_state(), msg.text, u.info_user()]))
+    if await msg_process(msg, state, ):
+        await state.set_state(StateUser.check_sales)
+        await msg.answer(text=txt_total(u, await state.get_data()),
+                         reply_markup=inline.UsersCheckSales.create_kb())

@@ -10,8 +10,8 @@
       <change beforePath="$PROJECT_DIR$/defs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defs/users/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/users/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defs/users/user_sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/users/user_sales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsm/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsm/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers/users/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/users.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyboards/inline/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/user.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668318293152</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="0.2">
+      <created>1668321204394</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668321204394</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
