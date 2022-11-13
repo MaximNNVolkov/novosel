@@ -88,3 +88,7 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
     if cb.data == 'CheckOk':
         await state.reset_state()
         await cb.message.answer(text='Отправлено')
+    elif cb.data == 'CheckChange':
+        kb = inline.UserProducts()
+        await cb.message.answer(text='Что исправить?',
+                                reply_markup=kb.create_kb())

@@ -33,12 +33,12 @@ class StateUser(StatesGroup):
             i = State()
 
 
-u = UserSales()
-u.set('id', 345678)
-u.set('bch', 5)
-u.set('sup', 6)
-u.set('szdor', 0)
-u.pr()
-u = UserSales()
-u.set('id', 22222)
-u.pr()
+c = config
+p = c.get('atrs', 'properties')
+d = p.split(',')
+my_d ={}
+for i in d:
+    k,v = i.split(':')
+    my_d.update({k:v})
+print(my_d.values())
+print(my_d.keys())

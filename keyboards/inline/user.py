@@ -1,4 +1,9 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+import configparser
+
+
+config = configparser.ConfigParser()
+config.read("config.ini")
 
 
 class UsersHelp():
@@ -22,4 +27,18 @@ class UsersCheckSales():
         btns.append(InlineKeyboardButton(text='Верно', callback_data='CheckOk'))
         btns.append(InlineKeyboardButton(text='Исправить', callback_data='CheckChange'))
         kb.row(btns[0], btns[1])
+        return kb
+
+
+class UserProducts():
+    kbs = config['atrs']
+    config.read_dict()
+
+    def create_kb(self):
+        btns = []
+        kb = InlineKeyboardMarkup()
+        kb.row_width = 5
+        for k in self.kbs:
+            btns.append(InlineKeyboardButton(text=k, callback_data='Change'+k))
+        kb.add(*btns)
         return kb

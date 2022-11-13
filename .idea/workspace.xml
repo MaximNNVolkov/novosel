@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32238c3-64db-4dc8-96a5-849d449bce7c" name="Changes" comment="0.2">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hendlers/users/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hendlers/users/users.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmc.loger" beforeDir="false" afterPath="$PROJECT_DIR$/cmc.loger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comands/comands.py" beforeDir="false" afterPath="$PROJECT_DIR$/comands/comands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defs/users/user_sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/users/user_sales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fsm/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsm/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers/users/users.py" beforeDir="false" afterPath="$PROJECT_DIR$/handlers/users/users.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +60,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fcm" />
       <recent name="$PROJECT_DIR$/utils" />
@@ -67,7 +70,7 @@
       <recent name="$PROJECT_DIR$/ai_bot" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="qr" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="CMC" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -98,11 +101,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/defs/qr" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/defs/qr/qr.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,7 +115,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.qr" />
+      <item itemvalue="Python.test" />
       <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
@@ -165,7 +168,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667241599532</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0.2">
+      <created>1667246913290</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667246913290</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0.2">
+      <created>1667332468966</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667332468966</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0.2">
+      <created>1667503442826</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667503442826</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0.2">
+      <created>1667751805024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667751805024</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0.2">
+      <created>1667853528036</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667853528036</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -176,7 +214,31 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="60" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="125" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="37" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

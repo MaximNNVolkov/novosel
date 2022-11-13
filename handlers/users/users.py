@@ -9,3 +9,4 @@ def register_user(dp: Dispatcher):
     dp.register_message_handler(enter_sup, state=StateUser.enter_sup)
     dp.register_message_handler(enter_szdor, state=StateUser.enter_szdor)
     dp.register_callback_query_handler(check_sales_ok, text='CheckOk', state=StateUser.check_sales)
+    dp.register_callback_query_handler(check_sales_ok, text='CheckChange', state=StateUser.check_sales)
