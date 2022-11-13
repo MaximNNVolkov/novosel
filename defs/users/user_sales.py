@@ -92,3 +92,10 @@ async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
         kb = inline.UserProducts()
         await cb.message.answer(text='Что исправить?',
                                 reply_markup=kb.create_kb())
+
+
+async def change_values(cb: CallbackQuery, state: FSMContext):
+    u = User(cb.from_user)
+    log.info(' '.join([await state.get_state(), cb.data, u.info_user()]))
+    await cb.message.answer(text=cb.data)
+    await cb.message.answer(await state.get_data())
