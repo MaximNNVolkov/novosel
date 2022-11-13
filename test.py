@@ -1,49 +1,54 @@
-import configparser
-from aiogram.dispatcher.filters.state import State, StatesGroup
+import sqlalchemy as db
+from sqlalchemy.orm import Session
+from sqlalchemy import MetaData, Table, Column, Integer, String, ForeignKey, insert, select
+engine = db.create_engine('sqlite:///shows.db')
+connection = engine.connect()
 
+metadata = MetaData()
 
-config = configparser.ConfigParser()
-config.read("config.ini")
+users = Table('users', metadata,
+    Column('id', Integer(), primary_key=True),
+    Column('name', String(200)),
+)
 
+posts = Table('posts', metadata,
+    Column('id', Integer(), primary_key=True),
+    Column('post_title', String(200), nullable=False),
+    Column('post_slug', String(200),  nullable=False),
+    Column('content', String(200),  nullable=False),
+    Column('user_id', Integer(), ForeignKey(users.c.id)),
+)
 
-class UserSales:
-    """хранение атрибутов продаж"""
-    available_properities = config['atrs']['properties']
+print(posts.columns)         # вернуть список колонок
+print(posts.foreign_keys)    # возвращает множество, содержащий внешние ключи таблицы
+print(posts.primary_key)     # возвращает первичный ключ таблицы
+print(posts.metadata)        # получим объект MetaData из таблицы
+print(posts.columns.post_title.name)     # возвращает название колонки
+print(posts.columns.post_title.type)
 
-    def pr(self):
-        for a in self.__dict__:
-            print(a, self.__getattribute__(a))
+metadata.create_all(engine)
 
-    def set(self, name: str, value: int):
-        """список атрибутов"""
-        if name in self.available_properities:
-            self.__setattr__(name, value)
-        else:
-            raise ValueError('Недопустимый атрибут')
+ins = users.insert().values(
+    id=160,
+    name='Yatsenko'
+)
+connection.close()
 
-    def check(self):
-        return True
+print(ins.compile().params)
+conn = engine.connect()
+r = conn.execute(ins)
 
+conn = engine.connect()
+ins = insert(users)
 
-class StateUser(StatesGroup):
+r = conn.execute(ins, [{'id': 168, 'name': 'volkov'},
+                       {'id': 169, 'name': 'vlasov'}])
+# r = conn.execute(insert(users), users_list)
+print(r.rowcount)
+conn.close()
 
-    def __init__(self, states):
-        for i in states:
-            print(i)
-            i = State()
-
-
-c = config
-p = c.get('atrs', 'properties')
-d = p.split(',')
-my_d ={}
-for i in d:
-    k,v = i.split(':')
-    my_d.update({k:v})
-print(my_d.values())
-print(my_d.keys())
-b = [4563]
-for v in my_d.values():
-    b.append(v)
-print(b)
-print(86101//10)
+conn = engine.connect()
+s = select([users]).where(users.columns.id > 140).where(users.columns.name == 'volkov')
+r = conn.execute(s)
+print(r.fetchall())
+conn.close()
