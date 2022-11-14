@@ -1,5 +1,4 @@
 import sqlalchemy as db
-from sqlalchemy.orm import Session
 from sqlalchemy import MetaData, Table, Column, Integer, String, ForeignKey, insert, select
 engine = db.create_engine('sqlite:///shows.db')
 connection = engine.connect()
@@ -19,12 +18,6 @@ posts = Table('posts', metadata,
     Column('user_id', Integer(), ForeignKey(users.c.id)),
 )
 
-print(posts.columns)         # вернуть список колонок
-print(posts.foreign_keys)    # возвращает множество, содержащий внешние ключи таблицы
-print(posts.primary_key)     # возвращает первичный ключ таблицы
-print(posts.metadata)        # получим объект MetaData из таблицы
-print(posts.columns.post_title.name)     # возвращает название колонки
-print(posts.columns.post_title.type)
 
 metadata.create_all(engine)
 

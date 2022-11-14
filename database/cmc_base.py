@@ -1,5 +1,5 @@
 import app_logger as loger
-import sqlite3
+from .db_start import Users, cr_users
 import time
 
 
@@ -9,39 +9,24 @@ date_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
 date = time.strftime('%Y-%m-%d', time.localtime())
 
 
-def con_up():
-    log.debug('Установка соединения с {}.'.format(db_name))
-    conn = sqlite3.connect(db_name)
-    cur = conn.cursor()
-    return conn, cur
-
-
-def con_close(conn):
-    log.debug('Закрытие соединения с {}.'.format(db_name))
-    conn.commit
-    conn.close()
-
-
 def add_user(user):
     log.debug(
         'Запрос на добавление нового пользователя с '
         '{}, {}, {}, {}.'.format(user.id, user.first_name, user.last_name, user.username))
-    conn, cur = con_up()
-    m = [user.id, user.first_name, user.last_name, user.username]
-    cur.execute('INSERT INTO users VALUES (?, ?, ?, ?)', m)
-    con_close(conn)
+    u = cr_users()
+    u.insert().values(id=user.id, first_name=user.first_name, last_name=user.last_name, username=user.username)
 
 
 def user_check(user):
     log.debug('Запрос на поиск пользователя {}.'.format(user.id))
-    conn, cur = con_up()
-    cur.execute("SELECT user_id FROM users WHERE user_id = ?;", [user.id])
-    all_results = cur.fetchall()
+    u = cr_users()
+    s = u.select(id == user.id)
+    print(s)
+    all_results = False
     if all_results:
         res = 'ok_user'
     else:
         res = 'no_user'
-    con_close(conn)
     return res
 
 

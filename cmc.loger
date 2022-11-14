@@ -1082,3 +1082,25 @@
 2022-11-13 16:33:00,686 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
 2022-11-13 16:33:01,659 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
 2022-11-13 16:33:03,883 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-14 22:30:34,826 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:38:22,055 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:39:32,147 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:40:42,887 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:42:30,707 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:43:32,566 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:46:19,733 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:47:44,361 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:48:34,666 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:49:46,710 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:50:37,486 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:52:20,594 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:52:45,669 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:53:25,838 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:54:13,805 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:54:40,241 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:55:07,155 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 22:59:23,398 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 23:00:10,936 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 23:00:27,533 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-14 23:00:29,767 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x102669330>
+2022-11-14 23:00:29,852 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
