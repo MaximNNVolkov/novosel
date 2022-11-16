@@ -84,6 +84,7 @@ async def enter_szdor(msg: Message, state: FSMContext):
                          reply_markup=inline.UsersCheckSales.create_kb())
 
 
+
 async def check_sales_ok(cb: CallbackQuery, state: FSMContext):
     u = User(cb.from_user)
     log.info(' '.join([await state.get_state(), cb.data, u.info_user()]))
