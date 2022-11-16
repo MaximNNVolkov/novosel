@@ -1,4 +1,4 @@
-from database import add_user, user_check, save_res
+from database import add_user, user_check, save_res, sales_check
 import configparser
 
 
@@ -57,5 +57,8 @@ class UserSales:
         r = {}
         for k in self.my_d.keys():
             r[k] = res[k]
-        save_res(u_id, res=r)
-        return True
+        if sales_check(u_id, res=r) == 'ok_sale':
+            save_res(u_id, res=r)
+            return True
+        else:
+            return False

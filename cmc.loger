@@ -1104,3 +1104,263 @@
 2022-11-14 23:00:27,533 - [INFO] - __main__ - (main.py).<module>(19) - bot started
 2022-11-14 23:00:29,767 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x102669330>
 2022-11-14 23:00:29,852 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 20:42:00,114 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 20:44:20,390 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 20:48:18,870 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 20:48:21,528 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x106a7bc40>
+2022-11-16 20:48:21,617 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 20:50:16,092 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 20:50:18,613 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x10571bc10>
+2022-11-16 20:50:18,696 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 20:53:35,310 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 20:53:39,534 - [INFO] - comands.comands - (comands.py).cmd_help(27) - кнопка хэлп Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:34,334 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:23:40,509 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x106f4c310>
+2022-11-16 21:23:40,608 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:46,331 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:49,127 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:50,044 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:50,851 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:23:54,481 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:21,692 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:27:26,563 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104b98040>
+2022-11-16 21:27:26,660 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:30,579 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:32,184 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:33,721 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:35,065 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:27:39,608 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:06,654 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x104bfae60>
+2022-11-16 21:28:06,733 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:11,212 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:12,696 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:13,294 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:13,823 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:16,679 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:49,353 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:28:53,445 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x102ef0460>
+2022-11-16 21:28:53,531 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:57,174 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:58,613 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:28:59,429 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:29:00,320 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:29:02,770 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:39:48,849 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:39:54,066 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x10767c3a0>
+2022-11-16 21:39:54,174 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:39:58,808 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:40:00,194 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:40:01,176 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:40:02,443 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:40:04,860 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:55:58,063 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:56:02,009 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:02,023 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x105d7c340>
+2022-11-16 21:56:02,175 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:02,179 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:02,185 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:08,073 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:08,081 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:09,249 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:09,255 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:10,005 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:10,015 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:10,778 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:10,784 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:14,280 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:14,288 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckChange Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:15,589 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:15,595 - [INFO] - defs.users.user_sales - (user_sales.py).change_values(105) - StateUser:change_sales Change:bch Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:18,664 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:18,668 - [INFO] - defs.users.user_sales - (user_sales.py).changed_value(120) - StateUser:changed_sales 3 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:20,253 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:20,260 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:20,349 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 21:56:35,807 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:56:39,019 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:39,035 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x11027c280>
+2022-11-16 21:56:39,114 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:39,118 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:39,123 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:42,159 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:42,167 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:44,145 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:44,150 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 3 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:45,451 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:45,459 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 7 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:46,303 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:46,310 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:49,134 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:49,143 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckChange Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:51,591 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:51,598 - [INFO] - defs.users.user_sales - (user_sales.py).change_values(105) - StateUser:change_sales Change:sup Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:55,196 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:55,203 - [INFO] - defs.users.user_sales - (user_sales.py).changed_value(120) - StateUser:changed_sales 9 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:56,968 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:56:56,978 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:56:57,074 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 21:56:57,078 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 175431079, {'id': '86101', 'bch': '3', 'sup': '9', 'szdor': '8'}.
+2022-11-16 21:58:30,677 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:58:33,718 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:33,733 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x102fec1c0>
+2022-11-16 21:58:33,847 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:33,851 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:33,854 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:38,704 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:38,709 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:40,325 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:40,334 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:42,188 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:42,195 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:43,203 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:43,209 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 9 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:45,690 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:58:45,696 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:58:45,774 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 21:59:05,234 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 21:59:09,008 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:09,021 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x103d7c3a0>
+2022-11-16 21:59:09,109 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:09,113 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:09,117 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:13,224 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:13,228 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:14,773 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:14,780 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 3 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:15,610 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:15,614 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 4 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:16,459 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:16,463 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:18,372 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 21:59:18,379 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 21:59:18,461 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 21:59:18,472 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 175431079, {'id': '86101', 'bch': '3', 'sup': '4', 'szdor': '5'}.
+2022-11-16 22:01:11,471 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 22:01:15,538 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:15,553 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x1075ac280>
+2022-11-16 22:01:15,636 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:15,640 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:15,644 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:21,109 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:21,114 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86102 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:22,453 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:22,458 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:23,583 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:23,587 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:24,795 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:24,799 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 3 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:26,905 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:26,914 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:27,010 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 22:01:27,022 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 0
+2022-11-16 22:01:27,023 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 175431079, {'id': '86102', 'bch': '6', 'sup': '5', 'szdor': '3'}.
+2022-11-16 22:01:49,915 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:49,920 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x1075afc70>
+2022-11-16 22:01:50,002 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:50,006 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:50,010 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:53,872 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:53,884 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:54,760 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:54,764 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 4 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:55,500 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:55,507 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 5 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:56,309 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:56,312 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 56 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:58,893 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:01:58,902 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:01:59,019 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 22:01:59,029 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 0
+2022-11-16 22:01:59,030 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 175431079, {'id': '86101', 'bch': '4', 'sup': '5', 'szdor': '56'}.
+2022-11-16 22:02:24,440 - [INFO] - __main__ - (main.py).<module>(19) - bot started
+2022-11-16 22:02:28,752 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:28,760 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x10397c1c0>
+2022-11-16 22:02:28,874 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:28,879 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:28,883 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:33,368 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:33,372 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:35,344 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:35,351 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 45 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:36,885 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:36,895 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 67 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:38,492 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:38,500 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 78 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:40,074 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:02:40,082 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:02:40,229 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 22:02:40,239 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 4
+2022-11-16 22:02:40,240 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(57) - alredy_send
+2022-11-16 22:04:12,357 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:04:12,366 - [INFO] - database.cmc_base - (cmc_base.py).add_user(12) - Запрос на добавление нового пользователя с 293374707, Марина, Волкова, None.
+2022-11-16 22:04:12,377 - [INFO] - comands.comands - (comands.py).cmd_start(15) - кнопка старт. Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:04:41,427 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:04:41,433 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707 <aiogram.dispatcher.storage.FSMContext object at 0x10397e6b0>
+2022-11-16 22:04:41,576 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:04:41,582 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:04:41,588 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:01,916 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:01,921 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 8610_1 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:12,618 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:12,623 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86101 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:22,500 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:22,506 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 5 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:27,466 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:27,473 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 15 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:31,435 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:31,441 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 2 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:37,559 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:37,568 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckChange Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:41,126 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:41,132 - [INFO] - defs.users.user_sales - (user_sales.py).change_values(105) - StateUser:change_sales Change:szdor Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:43,805 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:43,812 - [INFO] - defs.users.user_sales - (user_sales.py).changed_value(120) - StateUser:changed_sales 22 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:46,907 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:05:46,914 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:05:47,016 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 293374707 за дату 2022-11-16.
+2022-11-16 22:05:47,024 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 4
+2022-11-16 22:05:47,024 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(57) - alredy_send
+2022-11-16 22:06:26,595 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:26,605 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707 <aiogram.dispatcher.storage.FSMContext object at 0x105902d10>
+2022-11-16 22:06:26,779 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:26,786 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:26,791 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:36,127 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:36,134 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86125 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:39,735 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:39,740 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 7 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:43,465 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:43,471 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 44 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:48,125 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:48,132 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 5 Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:57,094 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 293374707.
+2022-11-16 22:06:57,100 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Марина, Фамилия: Волкова, Ник: None, Ссылка: tg://user?id=293374707
+2022-11-16 22:06:57,196 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 293374707 за дату 2022-11-16.
+2022-11-16 22:06:57,205 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 0
+2022-11-16 22:06:57,206 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 293374707, {'id': '86125', 'bch': '7', 'sup': '44', 'szdor': '5'}.
+2022-11-16 22:22:57,805 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:22:57,841 - [INFO] - comands.comands - (comands.py).cmd_help(27) - кнопка хэлп Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:01,589 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:01,597 - [INFO] - comands.comands - (comands.py).cmd_sales(38) - кнопка sales. Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079 <aiogram.dispatcher.storage.FSMContext object at 0x105975d20>
+2022-11-16 22:23:01,674 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:01,678 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:01,684 - [INFO] - defs.users.user_sales - (user_sales.py).sales_start(46) - Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:08,618 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:08,623 - [INFO] - defs.users.user_sales - (user_sales.py).enter_id(56) - StateUser:enter_id 86102 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:09,908 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:09,917 - [INFO] - defs.users.user_sales - (user_sales.py).enter_bch(64) - StateUser:enter_bch 4 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:10,671 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:10,674 - [INFO] - defs.users.user_sales - (user_sales.py).enter_sup(72) - StateUser:enter_sup 6 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:11,513 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:11,517 - [INFO] - defs.users.user_sales - (user_sales.py).enter_szdor(80) - StateUser:enter_szdor 8 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:15,260 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:15,268 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckChange Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:17,869 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:17,884 - [INFO] - defs.users.user_sales - (user_sales.py).change_values(105) - StateUser:change_sales Change:id Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:21,677 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:21,684 - [INFO] - defs.users.user_sales - (user_sales.py).changed_value(120) - StateUser:changed_sales 86103 Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:23,642 - [INFO] - database.cmc_base - (cmc_base.py).user_check(25) - Запрос на поиск пользователя 175431079.
+2022-11-16 22:23:23,651 - [INFO] - defs.users.user_sales - (user_sales.py).check_sales_ok(89) - StateUser:check_sales CheckOk Пользователь: Имя: Максим, Фамилия: Волков, Ник: MaximVolkov, Ссылка: tg://user?id=175431079
+2022-11-16 22:23:23,740 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(51) - Запрос на поиск продаж пользователя 175431079 за дату 2022-11-16.
+2022-11-16 22:23:23,747 - [INFO] - database.cmc_base - (cmc_base.py).sales_check(54) - 0
+2022-11-16 22:23:23,748 - [INFO] - database.cmc_base - (cmc_base.py).save_res(36) - Запрос на сохранение записи 175431079, {'id': '86103', 'bch': '4', 'sup': '6', 'szdor': '8'}.

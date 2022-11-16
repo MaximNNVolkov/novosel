@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c32238c3-64db-4dc8-96a5-849d449bce7c" name="Changes" comment="0.5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmc.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmc.loger" beforeDir="false" afterPath="$PROJECT_DIR$/cmc.loger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sqllite.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/sqllite.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defs/users/user_sales.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/users/user_sales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/cmc_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/cmc_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/db_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/db_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defs/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/defs/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards/inline/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards/inline/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +47,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2AwVCeavMTTVIae63TiinrpSyP3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -49,16 +57,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/maksim/PycharmProjects/cmc",
+    "run.code.analysis.last.selected.profile": "aDefault",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/database" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/fcm" />
@@ -228,7 +237,28 @@
       <option name="project" value="LOCAL" />
       <updated>1668345606377</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="0.5">
+      <created>1668346429106</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668346429106</updated>
+    </task>
+    <task id="LOCAL-00016" summary="0.5">
+      <created>1668365553700</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668365553700</updated>
+    </task>
+    <task id="LOCAL-00017" summary="0.5">
+      <created>1668456186149</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668456186149</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="UnknownFeatures">

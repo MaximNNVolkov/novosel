@@ -3,9 +3,9 @@ from aiogram.utils.callback_data import CallbackData
 from defs.classes import UserSales
 
 
-class UsersHelp():
+class UsersHelp:
 
-    def create_kb():
+    def create_kb(self):
         kb = InlineKeyboardMarkup()
         kb.row_width = 2
         btns = []
@@ -15,9 +15,9 @@ class UsersHelp():
         return kb
 
 
-class UsersCheckSales():
+class UsersCheckSales:
 
-    def create_kb():
+    def create_kb(self):
         kb = InlineKeyboardMarkup()
         kb.row_width = 2
         btns = []
