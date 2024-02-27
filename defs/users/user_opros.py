@@ -6,6 +6,8 @@ from aiogram.dispatcher import FSMContext
 from aiogram.types import Message, CallbackQuery
 from keyboards import inline
 import asyncio
+from database.novosel_base import save_res
+
 
 log = loger.get_logger(__name__)
 
@@ -121,40 +123,40 @@ async def write_answer_5(cb: CallbackQuery, state: FSMContext):
             fmt.text('Предлагаем Вам приобрести:'),
             sep=' '))
     await state.set_state(StateUser.result)
-    await send_result(cb.message, state=state)
+    await send_result(u, cb, state=state)
 
 
-async def send_result(msg: Message, state: FSMContext):
-    u = User(msg.from_user)
+async def send_result(u, cb, state: FSMContext):
     log.info(u.info_user())
     log.info(' '.join([await state.get_state(), u.info_user()]))
     d = await state.get_data()
     c = 0
+    save_res(u.id, d)
     if d[1].get('vopros_2') == 'yes':
-        await msg.answer(
+        await cb.bot.send_message(chat_id=u.id,
             text=fmt.hide_link(
                 url='https://megamarket.ru/catalog/details/komplekt-umnyh-datchikov-i-haba-sber-100058880808_40440/'))
         c += 1
         await asyncio.sleep(delay=1)
     if d[2].get('vopros_3') == 'yes':
-        await msg.answer(
+        await cb.bot.send_message(chat_id=u.id,
             text=fmt.hide_link(
                 url='https://megamarket.ru/catalog/details/rozetka-umnaya-sber-sbdv-00123-100058872843_40440/'))
         c += 1
         await asyncio.sleep(delay=1)
     if d[3].get('vopros_4') == 'yes':
-        await msg.answer(
+        await cb.bot.send_message(chat_id=u.id,
             text=fmt.hide_link(
                 url='https://megamarket.ru/catalog/details/umnaya-svetodiodnaya-lenta-sber-sbdv-00033-600005039388/'))
         c += 1
         await asyncio.sleep(delay=1)
     if d[4].get('vopros_5') == 'yes':
-        await msg.answer(
+        await cb.bot.send_message(chat_id=u.id,
             text=fmt.hide_link(
                 url='https://megamarket.ru/catalog/details/umnaya-kolonka-sber-sberboom-galakticheskiy-siniy-100065009469/'))
         c += 1
     if c == 0:
-        await msg.answer(
+        await cb.bot.send_message(chat_id=u.id,
             text=fmt.hide_link(
                 url='https://megamarket.ru/catalog/details/umnaya-kolonka-sber-sberboom-galakticheskiy-siniy-100065009469/'))
     await state.finish()
