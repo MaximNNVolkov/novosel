@@ -1,5 +1,5 @@
 import app_logger as loger
-from .db_start import db_conn, Users, UserSales
+from .db_start import db_conn, Users, Answers
 import time
 
 
@@ -35,7 +35,7 @@ def user_check(user):
 def save_res(u_id: int, res: dict):
     log.info(
         'Запрос на сохранение записи {}, {}.'.format(u_id, res))
-    u = UserSales(
+    u = Answers(
         user_id=res.get('id'),
         date=date,
         bch=res.get('bch'),
@@ -50,7 +50,7 @@ def save_res(u_id: int, res: dict):
 def sales_check(u_id: int, res: dict):
     log.info('Запрос на поиск продаж пользователя {} за дату {}.'.format(u_id, date))
     conn = db_conn()
-    s = conn.query(UserSales.id).filter(UserSales.user_id == res.get('id'), UserSales.date == date)
+    s = conn.query(Answers.id).filter(Answers.user_id == res.get('id'), Answers.date == date)
     log.info(s.count())
     if s.count() > 0:
         res = 'alredy_send'

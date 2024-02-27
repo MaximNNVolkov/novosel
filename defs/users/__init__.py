@@ -1,13 +1,10 @@
-from .user_sales import sales_start, enter_id, enter_bch, enter_sup, enter_szdor, check_sales_ok, \
-    change_values, changed_value
+from .user_opros import opros_start, write_answer_1, write_answer_2, write_answer_3, write_answer_4, write_answer_5
 
 
-__all__ = ['sales_start',
-           'enter_id',
-           'enter_bch',
-           'enter_sup',
-           'enter_szdor',
-           'check_sales_ok',
-           'change_values',
-           'changed_value',
+__all__ = ['opros_start',
+           'write_answer_1',
+           'write_answer_2',
+           'write_answer_3',
+           'write_answer_4',
+           'write_answer_5'
            ]

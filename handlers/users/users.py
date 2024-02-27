@@ -1,16 +1,12 @@
 from fsm import StateUser
 from aiogram import Dispatcher
-from defs import enter_id, enter_bch, enter_sup, enter_szdor, check_sales_ok, change_values, changed_value
-from keyboards.inline import UserProducts
+from defs.users.user_opros import write_answer_1, write_answer_2, write_answer_3, write_answer_4, write_answer_5
+from keyboards.inline import UsersVopros_1, UsersVopros_2, UsersVopros_3, UsersVopros_4, UsersVopros_5
 
-d = UserProducts()
 
 def register_user(dp: Dispatcher):
-    dp.register_message_handler(enter_id, state=StateUser.enter_id)
-    dp.register_message_handler(enter_bch, state=StateUser.enter_bch)
-    dp.register_message_handler(enter_sup, state=StateUser.enter_sup)
-    dp.register_message_handler(enter_szdor, state=StateUser.enter_szdor)
-    dp.register_callback_query_handler(check_sales_ok, text='CheckOk', state=StateUser.check_sales)
-    dp.register_callback_query_handler(check_sales_ok, text='CheckChange', state=StateUser.check_sales)
-    dp.register_callback_query_handler(change_values, d.cb.filter(), state=StateUser.change_sales)
-    dp.register_message_handler(changed_value, state=StateUser.changed_sales)
+    dp.register_callback_query_handler(write_answer_1, UsersVopros_1().cb.filter(), state=StateUser.vopros_1)
+    dp.register_callback_query_handler(write_answer_2, UsersVopros_2().cb.filter(), state=StateUser.vopros_2)
+    dp.register_callback_query_handler(write_answer_3, UsersVopros_3().cb.filter(), state=StateUser.vopros_3)
+    dp.register_callback_query_handler(write_answer_4, UsersVopros_4().cb.filter(), state=StateUser.vopros_4)
+    dp.register_callback_query_handler(write_answer_5, UsersVopros_5().cb.filter(), state=StateUser.vopros_5)

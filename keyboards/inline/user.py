@@ -1,6 +1,5 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.callback_data import CallbackData
-from defs.classes import UserSales
 
 
 class UsersHelp:
@@ -15,31 +14,76 @@ class UsersHelp:
         return kb
 
 
-class UsersCheckSales:
+class UsersVopros_1:
+
+    def __init__(self):
+        self.cb = CallbackData('vopros_1', 'name')
 
     def create_kb(self):
         kb = InlineKeyboardMarkup()
         kb.row_width = 2
-        btns = []
-        btns.append(InlineKeyboardButton(text='Верно', callback_data='CheckOk'))
-        btns.append(InlineKeyboardButton(text='Исправить', callback_data='CheckChange'))
-        kb.row(btns[0], btns[1])
+        kb.row(InlineKeyboardButton(text='Да, всегда',
+                                         callback_data=self.cb.new(name='yes')))
+        kb.row(InlineKeyboardButton(text='Нет / редко',
+                                         callback_data=self.cb.new(name='no')))
         return kb
 
 
-class UserProducts(UserSales):
+class UsersVopros_2:
 
     def __init__(self):
-        u = UserSales()
-        self.my_d = u.my_d
-        self.cb = CallbackData('Change', 'product')
+        self.cb = CallbackData('vopros_2', 'name')
 
     def create_kb(self):
-        btns = []
         kb = InlineKeyboardMarkup()
-        kb.row_width = 3
-        for k in self.my_d.keys():
-            btns.append(InlineKeyboardButton(text=self.my_d[k],
-                                             callback_data=self.cb.new(product=k)))
-        kb.add(*btns)
+        kb.row_width = 2
+        kb.row(InlineKeyboardButton(text='Да, всегда',
+                                         callback_data=self.cb.new(name='yes')))
+        kb.row(InlineKeyboardButton(text='Нет / редко',
+                                         callback_data=self.cb.new(name='no')))
+        return kb
+
+
+class UsersVopros_3:
+
+    def __init__(self):
+        self.cb = CallbackData('vopros_3', 'name')
+
+    def create_kb(self):
+        kb = InlineKeyboardMarkup()
+        kb.row_width = 2
+        kb.row(InlineKeyboardButton(text='Да, всегда',
+                                         callback_data=self.cb.new(name='yes')))
+        kb.row(InlineKeyboardButton(text='Нет / редко',
+                                         callback_data=self.cb.new(name='no')))
+        return kb
+
+
+class UsersVopros_4:
+
+    def __init__(self):
+        self.cb = CallbackData('vopros_4', 'name')
+
+    def create_kb(self):
+        kb = InlineKeyboardMarkup()
+        kb.row_width = 2
+        kb.row(InlineKeyboardButton(text='Да, всегда',
+                                         callback_data=self.cb.new(name='yes')))
+        kb.row(InlineKeyboardButton(text='Нет / редко',
+                                         callback_data=self.cb.new(name='no')))
+        return kb
+
+
+class UsersVopros_5:
+
+    def __init__(self):
+        self.cb = CallbackData('vopros_5', 'name')
+
+    def create_kb(self):
+        kb = InlineKeyboardMarkup()
+        kb.row_width = 2
+        kb.row(InlineKeyboardButton(text='Да, всегда',
+                                         callback_data=self.cb.new(name='yes')))
+        kb.row(InlineKeyboardButton(text='Нет / редко',
+                                         callback_data=self.cb.new(name='no')))
         return kb
