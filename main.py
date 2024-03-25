@@ -1,5 +1,5 @@
 import app_logger as log
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, executor
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from os import getenv
 from sys import exit

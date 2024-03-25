@@ -19,7 +19,9 @@ DeclarativeBase = declarative_base()
 class Users(DeclarativeBase):
     __tablename__ = 'users'
 
-    user_id = Column('user_id', Integer, primary_key=True)
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_id = Column('user_id', Integer)
+    date = Column(DateTime(), default=datetime.now)
     first_name = Column('first_name', String)
     last_name = Column('last_name', String)
     user_name = Column('user_name', String)
@@ -51,6 +53,15 @@ class Answers(DeclarativeBase):
     otv_3 = Column(String)
     otv_4 = Column(String)
     otv_5 = Column(String)
+
+
+class Admins(DeclarativeBase):
+    __tablename__ = 'admins'
+
+    id = Column(Integer, primary_key=True, autoincrement=True)
+    user_id = Column(Integer)
+    date = Column(DateTime(), default=datetime.now)
+    who_add = Column(Integer)
 
 
 def db_conn():

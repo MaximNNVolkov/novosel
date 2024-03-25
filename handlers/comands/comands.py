@@ -1,6 +1,5 @@
 from comands import cmd_start, cmd_help
 from aiogram import Dispatcher
-from fsm.users import StateUser
 
 
 def register_commands(dp: Dispatcher):
