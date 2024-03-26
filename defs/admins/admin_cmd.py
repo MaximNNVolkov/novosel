@@ -74,9 +74,9 @@ async def get_answers(message: types.Message, state: FSMContext):
 
 def between_list(period: str):
     if period == 'today':
-        return [str(datetime.now().date()), str(datetime.now().date())]
+        return [str(datetime.now().date()), str(datetime.now().date()+timedelta(days=+1))]
     if period == 'yesterday':
-        return [str(datetime.now().date()+timedelta(days=-1)), str(datetime.now().date()+timedelta(days=-1))]
+        return [str(datetime.now().date()+timedelta(days=-1)), str(datetime.now().date())]
     if period == 'week':
         return [str(datetime.now().date()+timedelta(weeks=-1)), str(datetime.now().date())]
     if period == 'month':
@@ -96,7 +96,6 @@ async def get_data_between(cb: types.CallbackQuery, state: FSMContext):
         res = get_answers_list(period)
     else:
         log.info(f'Admin. Уточнение диапазона дат. Получено значение {data}. Пользователь {u.info_user()}')
-    print(res)
     await cb.message.bot.send_message(chat_id=u.id,
                                       text=fmt.text(
                                           fmt.text('За период'),
