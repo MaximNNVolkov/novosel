@@ -78,9 +78,20 @@ def between_list(period: str):
     if period == 'yesterday':
         return [str(datetime.now().date()+timedelta(days=-1)), str(datetime.now().date())]
     if period == 'week':
-        return [str(datetime.now().date()+timedelta(weeks=-1)), str(datetime.now().date())]
+        return [str(datetime.now().date()+timedelta(weeks=-1)), str(datetime.now().date()+timedelta(days=+1))]
     if period == 'month':
-        return [str(datetime.now().date()+timedelta(weeks=-4)), str(datetime.now().date())]
+        return [str(datetime.now().date()+timedelta(weeks=-4)), str(datetime.now().date()+timedelta(days=+1))]
+
+
+def translate_period(period: str):
+    if period == 'today':
+        return 'сегодня'
+    if period == 'yesterday':
+        return 'вчера'
+    if period == 'week':
+        return 'неделю'
+    if period == 'month':
+        return 'месяц'
 
 
 async def get_data_between(cb: types.CallbackQuery, state: FSMContext):
@@ -88,7 +99,6 @@ async def get_data_between(cb: types.CallbackQuery, state: FSMContext):
     log.info(u.info_user())
     log.info(f'Admin. Уточнение диапазона дат. Пользователь {u.info_user()}')
     period = between_list(cb.data.split(':')[1])
-    print(period)
     data = await state.get_data()
     if data['stat'] == 'users':
         res = get_users_list(period)
@@ -98,7 +108,7 @@ async def get_data_between(cb: types.CallbackQuery, state: FSMContext):
         log.info(f'Admin. Уточнение диапазона дат. Получено значение {data}. Пользователь {u.info_user()}')
     await cb.message.bot.send_message(chat_id=u.id,
                                       text=fmt.text(
-                                          fmt.text('За период'),
+                                          fmt.text(f'За {translate_period(cb.data.split(":")[1])}'),
                                           fmt.text(len(res)),
                                           sep=' ')
                                       )
