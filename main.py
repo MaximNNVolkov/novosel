@@ -16,3 +16,4 @@ if __name__ == "__main__":
     executor.start_polling(dispatcher=dp,
                            skip_updates=False,
                            on_startup=set_default)
+
