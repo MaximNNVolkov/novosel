@@ -10,7 +10,7 @@ from datetime import datetime, timedelta
 
 
 log = loger.get_logger(__name__)
-admin_commands = ['/get_users', '/get_answers']
+admin_commands = ['/get_users', '/get_answers', '/add_new_admin']
 
 
 async def admin_cmd(message: types.Message, state: FSMContext):

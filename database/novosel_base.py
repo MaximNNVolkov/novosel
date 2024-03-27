@@ -1,5 +1,5 @@
 import app_logger as loger
-from .db_start import db_conn, Users, Answers
+from .db_start import db_conn, Users, Answers, Admins
 import time
 
 
@@ -49,3 +49,29 @@ def save_res(u_id: int, res: list):
     conn = db_conn()
     conn.add(u)
     conn.commit()
+
+
+def admin_check(new_admin_id:int):
+    log.info(f'Запрос на поиск админа {new_admin_id}.')
+    conn = db_conn()
+    s = conn.query(Admins.user_id).filter(Admins.user_id == new_admin_id).all()
+    if len(s) > 0:
+        res = 'ok_user'
+    else:
+        res = 'no_user'
+    return res
+
+
+def write_admin_db(u_id: int, id_who_add: int):
+    log.info(f'Добавление нового админа {u_id}, от {id_who_add}.')
+    if admin_check(u_id) == 'ok_user':
+        return 'user_already_added'
+    else:
+        u = Admins(
+            user_id=u_id,
+            who_add=id_who_add,
+        )
+        conn = db_conn()
+        conn.add(u)
+        conn.commit()
+        return 'admin_added'
