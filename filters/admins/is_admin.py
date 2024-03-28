@@ -12,11 +12,12 @@ class IsAdmin(BoundFilter):
 
     async def check(self, msg: Message):
         admins = admins_list()
+        admins = [x[0] for x in admins]
         user = msg.from_user.id
         if user not in admins:
             await msg.answer(fmt.text(
                 fmt.text('Эта команда доступна только  для администраторов.'),
                 fmt.text('Обратитесь к @MaximVolkov для получения доступа'),
-            sep='\n')
+                sep='\n')
             )
         return user in admins

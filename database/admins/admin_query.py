@@ -10,7 +10,7 @@ def admins_list():
     conn = db_conn()
     s = conn.query(Admins.user_id).all()
     if len(s) > 0:
-        res = s[0]
+        res = s
     else:
         res = ()
     return res
@@ -21,7 +21,6 @@ def get_users_list(between: list = ['1990-01-01', '2990-01-01']):
     conn = db_conn()
     s = conn.query(Users.user_id)\
         .filter((Users.date >= between[0]) & (Users.date <= between[1])).all()
-    print(between[0], between[1])
     if len(s) > 0:
         res = s
     else:
