@@ -51,7 +51,7 @@ def save_res(u_id: int, res: list):
     conn.commit()
 
 
-def admin_check(new_admin_id:int):
+def admin_check(new_admin_id: int):
     log.info(f'Запрос на поиск админа {new_admin_id}.')
     conn = db_conn()
     s = conn.query(Admins.user_id).filter(Admins.user_id == new_admin_id).all()

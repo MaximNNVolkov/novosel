@@ -4,6 +4,10 @@ from sqlalchemy.engine.url import URL
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
+import app_logger as loger
+
+
+log = loger.get_logger(__name__)
 
 
 DATABASE = {
@@ -70,3 +74,20 @@ def db_conn():
     Session = sessionmaker(bind=engine)
     session = Session()
     return session
+
+
+def write_main_admin_db(u_id: int):
+    log.info(f'Добавление главного админа {u_id}, от .')
+    conn = db_conn()
+    s = conn.query(Admins.user_id).filter(Admins.user_id == u_id).all()
+    if len(s) > 0:
+        log.info('main_admin_already_added')
+    else:
+        u = Admins(
+            user_id=u_id,
+            who_add=u_id,
+        )
+        conn = db_conn()
+        conn.add(u)
+        conn.commit()
+        log.info('main_admin_added')

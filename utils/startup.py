@@ -2,6 +2,8 @@ from aiogram import types, Dispatcher
 import app_logger as loger
 from handlers import register_user, register_msg, register_commands, register_admin
 from filters.register_filters import register_filter
+from config_reader import config
+from database.db_start import write_main_admin_db
 
 
 log = loger.get_logger(__name__)
@@ -21,3 +23,4 @@ async def set_default(dp: Dispatcher):
     register_user(dp=dp)
     register_admin(dp=dp)
     register_msg(dp=dp)
+    write_main_admin_db(config.admin.get_secret_value())
