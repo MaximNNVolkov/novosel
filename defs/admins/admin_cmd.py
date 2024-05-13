@@ -4,13 +4,13 @@ from aiogram.dispatcher import FSMContext
 from fsm.admins import StateAdmin
 from aiogram.utils import markdown as fmt
 from defs.classes import User
-from database.admins.admin_query import get_users_list, get_answers_list
+from database.admins.admin_query import get_users_list, get_answers_list, add_photo_query
 from keyboards.inline.admin import AdminDates
 from datetime import datetime, timedelta
 
 
 log = loger.get_logger(__name__)
-admin_commands = ['/get_users', '/get_answers', '/add_new_admin']
+admin_commands = ['/get_users', '/get_answers', '/add_new_admin', '/add_photo']
 
 
 async def admin_cmd(message: types.Message, state: FSMContext):
@@ -112,3 +112,21 @@ async def get_data_between(cb: types.CallbackQuery, state: FSMContext):
                                           fmt.text(len(res)),
                                           sep=' ')
                                       )
+
+
+async def add_photo(message: types.Message, state: FSMContext):
+    u = User(message.from_user)
+    log.info(u.info_user())
+    log.info(f'Admin. Добавление фото. Пользователь {u.info_user()}')
+    await message.answer('Пришлите фото')
+    await state.set_state(StateAdmin.add_photo)
+
+
+async def save_photo(message: types.Message, state: FSMContext):
+    u = User(message.from_user)
+    log.info(u.info_user())
+    log.info(f'Admin. Сохранение фото. Пользователь {u.info_user()}')
+    photo = message.photo[-1]
+    add_photo_query(file_id=photo.file_id, id_who_add=u.id, name='for_all')
+    await message.answer(f'Фото сохранено, {message.photo[-1]}')
+    await state.set_state(StateAdmin.admin_enter)

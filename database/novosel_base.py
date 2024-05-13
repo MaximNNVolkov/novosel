@@ -1,5 +1,5 @@
 import app_logger as loger
-from .db_start import db_conn, Users, Answers, Admins
+from .db_start import db_conn, Users, Answers, Admins, Photos
 import time
 
 
@@ -75,3 +75,14 @@ def write_admin_db(u_id: int, id_who_add: int):
         conn.add(u)
         conn.commit()
         return 'admin_added'
+
+
+def get_photo(photo_name: str):
+    log.info(f'Запрос на получение фото {photo_name}.')
+    conn = db_conn()
+    s = conn.query(Photos).filter(Photos.photo_name == photo_name).all()
+    if len(s) > 0:
+        res = s[0].file_id
+    else:
+        res = 'no_photo'
+    return res
