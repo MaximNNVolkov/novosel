@@ -68,6 +68,15 @@ class Admins(DeclarativeBase):
     who_add = Column(Integer)
 
 
+class Photos(DeclarativeBase):
+    __tablename__ = 'photos'
+
+    file_id = Column(String, primary_key=True)
+    who_add = Column(Integer)
+    date = Column(DateTime(), default=datetime.now)
+    photo_name = Column(String)
+
+
 def db_conn():
     engine = create_engine(URL(**DATABASE))
     DeclarativeBase.metadata.create_all(engine)

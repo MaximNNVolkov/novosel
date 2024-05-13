@@ -1,5 +1,5 @@
 import app_logger as loger
-from database.db_start import db_conn, Admins, Users, Answers
+from database.db_start import db_conn, Admins, Users, Answers, Photos
 
 
 log = loger.get_logger(__name__)
@@ -38,3 +38,15 @@ def get_answers_list(between: list = ['1990-01-01', '2990-01-01']):
     else:
         res = ()
     return res
+
+
+def add_photo_query(file_id: str, id_who_add: int, name: str):
+    log.info(f'Запрос на добавление фото {file_id}, от {id_who_add}.')
+    p = Photos(
+        file_id=file_id,
+        who_add=id_who_add,
+        photo_name=name
+    )
+    conn = db_conn()
+    conn.add(p)
+    conn.commit()
